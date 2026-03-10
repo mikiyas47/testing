@@ -1,0 +1,6 @@
+<svg width="1242" height="2436" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1242" height="2436" fill="#f0f0f0"/>
+  <circle cx="621" cy="800" r="150" fill="#51cf66"/>
+  <rect x="421" y="1100" width="400" height="150" rx="75" fill="#4ecdc4"/>
+  <text x="621" y="1200" font-family="Arial" font-size="80" fill="white" text-anchor="middle" font-weight="bold">Counter App</text>
+</svg>

@@ -1,0 +1,29 @@
+# Ignore build files
+build/
+dist/
+*.apk
+*.ipa
+
+# Dependencies
+node_modules/
+
+# Metro
+.metro-health-check*
+
+# Testing
+coverage/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

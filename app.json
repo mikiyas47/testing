@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Simple React Native App",
+    "slug": "SimpleReactNativeApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#f0f0f0"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.simplernapp"
+    },
+    "android": {
+      "package": "com.simplernapp"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "sdkVersion": "54.0.0"
+  }
+}
