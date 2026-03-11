@@ -29,9 +29,9 @@ COPY . /var/www
 # Install composer dependencies
 RUN composer install --no-dev --optimize-autoloader
 
-# Copy startup script and make it executable
+# Copy startup script, fix Windows line endings, and make it executable
 COPY startup.sh /startup.sh
-RUN chmod +x /startup.sh
+RUN sed -i 's/\r//' /startup.sh && chmod +x /startup.sh
 
 ENV PORT=8000
 EXPOSE 8000
